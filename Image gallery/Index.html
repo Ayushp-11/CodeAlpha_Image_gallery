@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Image Gallery</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+       <nav>
+            <div class="items">
+                <span class="item active" data-name="all">All</span>
+                <span class="item" data-name="animal">Animals</span>
+                <span class="item" data-name="vehicle">vehicles</span>
+                <span class="item" data-name="games">Games</span>
+                <span class="item" data-name="nature">Nature</span>
+                <span class="item" data-name="flowers">Flowers</span>
+                <span class="item" data-name="paintings">Paintings</span>
+            </div>
+        </nav>
+        <div class="gallery">
+            <div class="image" data-name="animal"><span><img src="storage/animal 1.jpeg" alt="animal1"></span></div>
+            <div class="image" data-name="animal"><span><img src="storage/animal 2.jpeg" alt="animal2"></span></div>
+            <div class="image" data-name="animal"><span><img src="storage/animal 3.jpeg" alt="animal3"></span></div>
+            <div class="image" data-name="animal"><span><img src="storage/animal 4.jpeg" alt="animal4"></span></div>
+            <div class="image" data-name="animal"><span><img src="storage/animal 5.jpeg" alt="animal5"></span></div>
+            <div class="image" data-name="animal"><span><img src="storage/animal 6.jpeg" alt="animal6"></span></div>
+            <div class="image" data-name="vehicle"><span><img src="storage/vehicle 1.jpeg" alt="vehicle1"></span></div>
+            <div class="image" data-name="vehicle"><span><img src="storage/vehicle 2.jpeg" alt="vehicle2"></span></div>
+            <div class="image" data-name="vehicle"><span><img src="storage/vehicle 3.jpeg" alt="vehicle3"></span></div>
+            <div class="image" data-name="vehicle"><span><img src="storage/vehicle 4.jpeg" alt="vehicle4"></span></div>
+            <div class="image" data-name="vehicle"><span><img src="storage/vehicle 5.jpeg" alt="vehicle5"></span></div>
+            <div class="image" data-name="vehicle"><span><img src="storage/vehicle 6.jpeg" alt="vehicle6"></span></div>
+            <div class="image" data-name="games"><span><img src="storage/game 1.jpeg" alt="game1"></span></div>
+            <div class="image" data-name="games"><span><img src="storage/game 2.jpeg" alt="game2"></span></div>
+            <div class="image" data-name="games"><span><img src="storage/game 3.jpeg" alt="game3"></span></div>
+            <div class="image" data-name="games"><span><img src="storage/game 4.jpeg" alt="game4"></span></div>
+            <div class="image" data-name="games"><span><img src="storage/game 5.jpeg" alt="game5"></span></div>
+            <div class="image" data-name="games"><span><img src="storage/game 6.jpeg" alt="game6"></span></div>
+            <div class="image" data-name="nature"><span><img src="storage/nature 1.jpeg" alt="nature1"></span></div>
+            <div class="image" data-name="nature"><span><img src="storage/nature 2.jpeg" alt="nature2"></span></div>
+            <div class="image" data-name="nature"><span><img src="storage/nature 3.jpeg" alt="nature3"></span></div>
+            <div class="image" data-name="nature"><span><img src="storage/nature 4.jpeg" alt="nature4"></span></div>
+            <div class="image" data-name="nature"><span><img src="storage/nature 5.jpeg" alt="nature5"></span></div>
+            <div class="image" data-name="nature"><span><img src="storage/nature 6.jpeg" alt="nature6"></span></div>
+            <div class="image" data-name="flowers"><span><img src="storage/flower 1.jpeg" alt="flower1"></span></div>
+            <div class="image" data-name="flowers"><span><img src="storage/flower 2.jpeg" alt="flower2"></span></div>
+            <div class="image" data-name="flowers"><span><img src="storage/flower 3.jpeg" alt="flower3"></span></div>
+            <div class="image" data-name="flowers"><span><img src="storage/flower 4.jpeg" alt="flower4"></span></div>
+            <div class="image" data-name="flowers"><span><img src="storage/flower 5.jpeg" alt="flower5"></span></div>
+            <div class="image" data-name="flowers"><span><img src="storage/flower 6.jpeg" alt="flower6"></span></div>
+            <div class="image" data-name="paintings"><span><img src="storage/painting 1.jpeg" alt="painting1"></span></div>
+            <div class="image" data-name="paintings"><span><img src="storage/painting 2.jpeg" alt="painting2"></span></div>
+            <div class="image" data-name="paintings"><span><img src="storage/painting 3.jpeg" alt="painting3"></span></div>
+            <div class="image" data-name="paintings"><span><img src="storage/painting 4.jpeg" alt="painting4"></span></div>
+            <div class="image" data-name="paintings"><span><img src="storage/painting 5.jpeg" alt="painting5"></span></div>
+            <div class="image" data-name="paintings"><span><img src="storage/painting 6.jpeg" alt="painting6"></span></div>
+        </div>    
+    </div>
+
+     <div class="preview-box">
+        <div class="details">
+            <span class="title">Image Category: <p>Not defined</p></span>
+            <span class="icon fas fa-times"></span>
+        </div>
+        <div class="image-box">
+            <img src="" alt="">
+        </div>
+        <div class="btns">
+            <button id="prev-btn" class="fas fa-angle-double-left" aria-hidden="true"></button>
+            <button id="next-btn" class="fas fa-angle-double-right" aria-hidden="true"></button>
+        </div>
+    </div>
+
+    <div class="shadow"></div>
+    
+    
+    <script src="./Script.js"></script>
+</body>
+</html>
